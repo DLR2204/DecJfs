@@ -1,0 +1,192 @@
+
+
+on-1  off-0   ----------------> ASCII/UNICODE  a-97
+
+
+programming lang :-  java
+
+sunmicro ---------------------------------->oracle 
+greenteam (.gt)--------->oak--------------->java(.java)
+
+jdk 1.0 ----------------------------------- > 23
+
+
+	3  editions
+	
+	jse/j2se :- core java [standalone(no client-server)]
+	
+	jee/j2ee :-core java + adv java [distributed(client-server)]
+	
+	jme/j2me :-micro details java [mobile app]
+	
+	
+	
+	53 reserved words.
+	
+	
+	variables :- 
+	
+		syntax :- 	datatype variableName ;			//declaration of a variable
+		
+					datatype variableName = value;   //intialization of a variable
+				
+		
+			local variable(within the method)		global Variable(outside the method)
+			
+												static 				instance 
+												
+												
+syntax:- 
+=======
+static   ->  static datatype variableName = value;
+
+instance ->		datatype variableName = value;
+
+memory allocation:- 
+=================
+
+static   ->Static prop's will gets the memory space only once when the class loading into the jvm
+
+instance ->Instance prop's will gets the memory space for every object creation
+
+
+				object creation syntax:- 
+				
+				
+				ClassName objname = new ClassName();
+
+access:- 
+==========
+
+static   ->Static prop's can be accessed by the class reference.
+
+instance ->Instance prop's can be accessed by the object reference.
+
+In the memory:-
+============= 
+
+static   ->Method Area
+
+instance ->Heap Area
+
+
+Usage:-
+=======
+
+static   ->Common Data  
+
+instance ->Unique Data
+
+
+
+operators :-  ULTRA AB
+---------
+
+	(operand)		a  +    b 
+
+
+	Uninary
+
+	Logical
+	
+	Terinary
+	
+	Relational
+	
+	Assignment
+	
+	Arithmetic 
+	
+	Bitwise
+			
+			
+			
+			methods:- set of statements where altogether performs the similar task.
+			
+			
+			syntax:- 
+			
+					accessmodifier  returntype methodName(prms...){
+					
+					/body
+					}
+					
+					
+			(1)static  :- 
+			
+					accessmodifier static returntype methodName(prms...){
+					
+					/body
+					}
+			
+			
+			(2)dynamic
+			
+				accessmodifier  returntype methodName(prms...){
+					
+					/body
+					}
+					
+	
+	class = variables + methods [class members + member functions]
+	
+	object :- ClassName obj ;
+	
+			ClassName obj = new ClassName();
+			
+			
+			
+	Inheritance :- Accquiring  the parent class properties to the child class.
+	
+	
+	extends						implements
+	
+	cls -->cls
+	
+	
+	* M.I is not supported in java @class level
+	
+	* M.Iis supported in java @interface level
+	
+	
+	class A{						class B{
+	
+	add(a,b){						add(x,y){
+	(a+b);							x*y;	
+	
+	}								}
+	
+	}								}
+	
+	
+	class C extends A,B {
+	
+	add(4,2);   ----------->
+	}
+	
+	
+	
+		types of method based on the method :- 2 types 
+		
+		
+		(1)concrete methods:- methods with method body
+		
+syntax:- 		accessmodifier  returntype methodName(prms...){
+					
+					/body
+					}
+					
+		
+		(2)abstract methods:- methods without method body
+		
+		
+syntax:- 		accessmodifier  returntype methodName(prms...);
+					
+					
+					
+					
+class :- the collection of only concrete methods.
+
+interface :- the collection of only abstract methods.
+
+abstract clss :- the combination of both abstract + concrete methods.
