@@ -137,11 +137,12 @@ operators :-  ULTRA AB
 			
 			
 	Inheritance :- Accquiring  the parent class properties to the child class.
-	
+			
+			*Code Reuseability
 	
 	extends						implements
 	
-	cls -->cls
+	cls -->cls					interface -->cls
 	
 	
 	* M.I is not supported in java @class level
@@ -190,3 +191,62 @@ class :- the collection of only concrete methods.
 interface :- the collection of only abstract methods.
 
 abstract clss :- the combination of both abstract + concrete methods.
+
+
+
+
+Abstraction :- Hiding the data
+------------			
+					*SECURITY
+
+class    0%
+
+abstract class 0%-100%
+
+interface 100%
+
+
+Polymorphism :-   * code reuseability
+------------
+
+(1)MethodOverloading :- Method name is same but parameters are diff:- 
+						
+							(a)no:-of parameters
+							(b)type of parameters
+							(c)order of parameters
+
+(2)MethodOverriding :- Method name is same but the implementation is diff
+
+
+class Parent{
+
+1000Cr()
+
+marriage(){
+kajol;
+}
+
+........
+
+
+}
+
+class Child extends Parent{
+
+1000Cr()
+
+@Override
+marriage(){
+
+}
+
+........
+
+
+
+
+}
+
+
+Encapsulation :- wrapping up of the entire data into a single unit.
+--------------
