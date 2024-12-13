@@ -250,3 +250,66 @@ marriage(){
 
 Encapsulation :- wrapping up of the entire data into a single unit.
 --------------
+
+
+Constructor:- It is to initialize the objects
+----------- 	
+
+	(1)default constructor
+	
+	syntax:- accessmodifier className(){
+	
+			//body
+	
+			}
+	
+	
+	(2)parametrized constructor
+	
+		syntax:- accessmodifier className(parmss...){
+	
+			//body
+	
+			}
+			
+			
+			className obj = new className();
+			
+			
+	"java.lang.Object " is parent class for every java file
+	
+	"java.lang"  is the default package 
+	
+	
+	
+	Array:- It's a collection of homogeneous elements.
+	
+	
+	(1)int arr[] = {1,2,3,4,5,6,6,7,8,7};
+	
+	(2)int arr[] = new int[23];
+	
+	(3)int arr[] = new int[]{1,2,3,4,5,6,6,7,8,89};
+	
+	
+	
+	limitations :- 
+	-------------
+	
+	(1)It will accept only homogeneous data
+	
+	(2)no utility methods
+	
+	(3)It is fixed in size
+	
+	
+	collections:- framework  ----------->util
+	------------
+	
+	
+	(1)It will accept both homogeneous,heterogeneous data
+	
+	(2)Lots of utility methods
+	
+	(3)It is growable in nature
+	
