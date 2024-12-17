@@ -313,3 +313,22 @@ Constructor:- It is to initialize the objects
 	
 	(3)It is growable in nature
 	
+	
+	FileHandling:-  java.io
+	-------------
+	
+	
+	(1)Creating the file 	  :- File
+	
+	(2)To write into the file :- FileWriter
+								 BufferedWriter
+								 PrintWriter
+								 
+								 
+	(3)To Read from the file  :- FileReader
+								 BufferedReader
+								 
+								 
+								 
+		junit:- Unit testing in java
+		------
