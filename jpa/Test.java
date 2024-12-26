@@ -14,7 +14,19 @@ public class Test {
 	
 	em.getTransaction().begin();
 	
-	System.out.println("Table is created");
+	
+//	em.persist(emp);//insert
+	
+//	em.merge(emp);
+	
+//	System.out.println(em.find(Employee.class,100));
+	
+	Employee emp = em.find(Employee.class,100);
+	
+	em.remove(emp);
+	
+	System.out.println("The data is deleted successfully");
+	
 	em.getTransaction().commit();
 	
 	em.close();
