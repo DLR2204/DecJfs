@@ -332,3 +332,219 @@ Constructor:- It is to initialize the objects
 								 
 		junit:- Unit testing in java
 		------
+		
+		
+		String:- 
+		---------
+		
+		
+		String 					StringBuffer 				StringBuilder
+		
+		immutable				Mutable						mutable
+		
+								synchorised					non-synchorised
+								
+								
+		MutliThreading:-Running multiple processes at a time 
+		
+							
+							
+									DataBase:-
+									---------
+									
+		apple	452	
+		orange	343
+		grapes	232		
+		pear	345
+		banana	234		
+										
+		
+
+			RDBMS :- Tables = rows(records) +colums(fields)
+			
+			
+			Queries :- command   - 5 types :- 
+			
+			
+			(1)DDL(Data definition Language) :- create,alter,rename,truncate,drop  [auto-committed]
+			
+			(2)DML(Data Manipulation Language) :- insert,update,delete [not auto-committed]
+			
+			(3)DRL(Data Retrival Language) :- select
+			
+			(4)DCL(Data Control Language) :- grant,revoke
+			
+			(5)TCL(Transaction Control Language) :- commit,rollback
+			
+												
+			
+			
+	steps to create schema in db:-
+	
+		(1)conn /as sysdba;
+		
+		(2)create user username identified by password;
+		
+		(3)grant connect, resource to username;
+		
+		(4)conn username/password
+		
+		
+		
+		drop :- to delete the entire table with records
+		
+		truncate :- to delete the records in the table
+		
+		delete  :- to delete any specific row
+		
+											JDBC:-
+											=====
+											
+		(1)Loading Driver Classes
+
+		(2)Create the connection
+		
+		(3)Create the statements
+		
+		(4)Execute the statements
+		
+		(5)Close the connections.
+											
+											
+											
+		Limitations:- 
+		============
+		
+		(1)Queires
+		
+		(2)Table creation 
+		
+		(3)Exception Handling
+		
+		(4)BoilerPlate code (Repeated code)
+		
+		(5)same files for db prop's , logic
+		
+		
+		jpa:-(specfication)[java persistence api]
+		====
+		
+		
+		(1)No Queires
+		
+		(2)Table will be automatically created
+		
+		(3)No Exception Handling
+		
+		(4)No BoilerPlate code
+		
+		(5)Diff files for db prop's , logic
+		
+		
+		ORM Tools [Implementations]:- 
+		-----------------------------
+		
+		hibernate , ecllipse link,top link ,ibatis.......
+		
+		
+		(1)Entity Manager -Query equivalent methods
+		
+		(2) Class  --------> Table
+			
+			variables----->columns
+			
+			objects ------>rows
+			
+			
+		(3)db prop's --->xml
+
+			logic ------>java
+			
+			
+		c-create  --insert ----------->persit()
+		
+		r-retrive --select ----------->find()
+		
+		u-update  --update ------------>merge()
+		
+		d-delete  --delete ------------->remove()
+		
+		
+		
+	Maven:-Build Tool
+			
+			
+			
+								Spring:- 
+								======
+								
+								
+		Spring:- It is a non-invasive framework which is used to develop light-weighted
+						and loosely -coupled web application's.
+		
+		
+		
+				invasive :-It will forces the programmer to use predefined api
+				
+				non-invasive :- It will not forces the programmer to use predefined api
+		
+			
+				heavy-weighted:- 
+				
+	class A{
+	
+	1000 methods
+	
+	}
+
+		class B extends A{
+		
+			10 methods
+		}
+					class C extends B{
+					
+					1 method    ------->1011 methods
+					
+					}
+					
+					
+			tightly coupled :- If the dependencies b/n the classes are very high.
+			
+			loosely coupled :- If the dependencies b/n the classes are very low.
+			
+			
+
+	Spring Core ,Spring Boot,Spring DataJpa,Sprig REST, Spring SECURITY,Spring Web,Spring Cloud...........
+	
+	
+	
+										Spring Core :- 
+										===========
+										
+	It will avoid the dependencies b/n classes.So that our app will be a loosely-coupled app
+	
+	
+	
+	Containers:-They will creates the object
+	
+				(1)BeanFactory 
+				
+				(2)ApplicationContext
+				
+				
+	Dependency Injection :- Injecting the data into the objects
+	
+				(1)Setter Injection
+				
+				(2)Constructor Injection
+				
+				(3)Autowiring
+				
+				
+	Configuration:- 
+	
+				(1)XML configuration
+				
+				(2)Annotation configuration
+				
+				
