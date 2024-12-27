@@ -534,11 +534,11 @@ Constructor:- It is to initialize the objects
 				
 	Dependency Injection :- Injecting the data into the objects
 	
-				(1)Setter Injection
+				(1)Setter Injection  <property></property>
 				
-				(2)Constructor Injection
+				(2)Constructor Injection  <constructor-arg></constructor-arg>
 				
-				(3)Autowiring
+				(3)Autowiring  autowire
 				
 				
 	Configuration:- 
@@ -547,4 +547,17 @@ Constructor:- It is to initialize the objects
 				
 				(2)Annotation configuration
 				
+				
+				
+				SpringBoot:- 
+				===========
+					
+					
+					(1)EmbeddedServer  :- Tomcat[apache]
+					
+					(2)AutoConfiguration
+					
+					(3)Staters:- set of jar files
+					
+					(4)Actuators :- health /status of our app through end point urls.
 				
