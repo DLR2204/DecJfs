@@ -561,3 +561,58 @@ Constructor:- It is to initialize the objects
 					
 					(4)Actuators :- health /status of our app through end point urls.
 				
+				
+				
+				Controller :- it will interact with the ui through http url's.
+				
+				dao/repo :- it will interact with the database throught jpa hibernate.
+				
+				service :- it is the mediator between controller n the rep layer.
+				
+				
+				
+		SpringRest :- It is to invoke the restfull webservices to the project.
+		==========
+		
+		Webservices:-It is used to make interaction possible between two interoperable app'ns.
+		-----------
+				
+				(1)SOAP :-It's common lang is only xml
+				
+				(2)REST :- It's common lang is xml,json,html,php,txt........
+				
+				
+				
+								Frontend:-
+								=========
+								
+		HTML:- Hyper Text Markup Language
+		
+		
+		.htm/.html
+		
+		
+		<tag>
+		
+		(1)container/pair :- <tag></tag>
+		
+		(2)single/empty :-<tag> or </tag> or <tag/> 
+		
+		
+		
+		<opening tag class="values"> Statement </closing>   ====>element
+		
+		
+		
+		website :- collection of webpages
+		
+		
+						(1)static webpages :- the changes will not happens regularly
+						
+						(2)dynamic webpages :- the changes will happens regularly.
+						
+						(3)server webpages :- the data from the static and dynamic webpages will be stored 
+						
+						
+			
+			
