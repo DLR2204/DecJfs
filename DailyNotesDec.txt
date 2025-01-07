@@ -614,5 +614,10 @@ Constructor:- It is to initialize the objects
 						(3)server webpages :- the data from the static and dynamic webpages will be stored 
 						
 						
+			table = rows+columns
 			
+			
+			row <tr></tr>
+			
+			col  <td></td>
 			
