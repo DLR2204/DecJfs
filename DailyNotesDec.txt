@@ -621,3 +621,107 @@ Constructor:- It is to initialize the objects
 			
 			col  <td></td>
 			
+			
+									Css:- 
+									===
+									
+				cascading style sheets 
+				
+				(1)Inline styling :- style att inside the opening tag
+				
+				
+				(2)Internal :- <style> tag inside the <head> tag
+				
+				
+				(3)External Styling:- attaching .css file to the .html file
+				
+				
+				colors:- 
+				
+				
+				(1)color name
+				
+				
+				(2)hexadecimal (#r,g,b)(00-ff)
+				
+				(3)rgb function-(rgb(r,g,b))
+				
+				(4)rgb with alpha
+				
+				(5)hsl function
+				
+				(6)hsl with alpha
+				
+				
+			selectors :- 
+
+		(1)tag name  :- h1,h2,p
+		
+		
+		(2)id name(#)  :- #idname
+ 		
+		
+		(3)class name(.)  :- .className
+		
+		
+		(4)universal(*) 
+				
+								javascript:- 
+								===========
+								
+								
+		(1)dynamic webpages
+		
+		
+		(2)To change the html content
+		
+		(3)To change the html attributes
+		
+		
+		(4)To change the css
+		
+		(5)To hide the data
+				
+				
+				
+	(1)internal :- <script> tag inside the head/body 
+	
+	(2)external :- attaching external .js file to html file
+				
+				
+	output function in js :- 
+	--------------------------
+	
+	(1)innerHTML :- it will display the data by calling the id of a tag
+
+	(2)document.write() :-data inside the write method will be displayed
+
+	(3)window.alert() :- displays the data in the alert box
+	
+	(4)console.log :- displays the data in the console window.
+	
+	
+	
+	variable :- 
+	
+				let/const/var varname ;  //declaration of a var
+		
+				var varname = value;  //initialization of a variable
+				
+				
+				
+		function functionName(parma.....){
+		
+		
+		//body 
+		
+		}
+				
+				
+				
+				
+				
+				
+				
+				
+				
