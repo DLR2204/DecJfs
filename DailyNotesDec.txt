@@ -716,10 +716,43 @@ Constructor:- It is to initialize the objects
 		//body 
 		
 		}
+						Bootstrap:- 
+						=========
+						
+	(1)cdn (content delivery network)
+	
+	(2)Downloading files
+				
+	Grid System :-   class="container"
+	-------------
+				
+				
+	Navbar:- class ="navbar"/<nav>
+			class="nav"
 				
 				
 				
+	badge :- class = "badge"
+			tag --span
 				
+	card :- class="card"	
+
+
+									react :-  js library
+									======
+									
+	to create the react project:- 
+
+	(1)npm install create-react-app -g
+		create-react-app appName
+		
+	(2)npx create-react-app appName
+									
+									
+									
+									
+									
+	component:- 
 				
 				
 				
