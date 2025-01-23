@@ -748,13 +748,22 @@ Constructor:- It is to initialize the objects
 		
 	(2)npx create-react-app appName
 									
-									
+		
+		cba :- component based architecture		
 									
 									
 									
 	component:- 
+	
+	(1)stateless functional component (js function)
+	
+	(2)statefull class component       (js class)
 				
 				
+		props :- (1)w.r.t the component these are method parameters
+		
+					(2)w.r.t the app component these are tag attributes
 				
 				
+		state :- it is a memorty location (variable)
 				
