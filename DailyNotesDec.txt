@@ -767,3 +767,20 @@ Constructor:- It is to initialize the objects
 				
 		state :- it is a memorty location (variable)
 				
+				
+		const hello=<h1>Hello Everyone</h1>
+		
+				axios.get();
+		
+		axios.put
+		
+	axios.post(localhost:2383/emp/addemp);
+		
+		axios.delete
+		
+		
+		
+
+		
+		
+		
